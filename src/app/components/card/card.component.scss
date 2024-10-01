@@ -1,0 +1,45 @@
+:host {
+    display: block;
+    min-width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    transform: translateX(3px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    animation: swoop-in 0.6s ease-out forwards;
+
+    @keyframes swoop-in {
+        from {
+          opacity: 0;
+          transform: translateX(3rem); /* Start 3rem from the right */
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0); /* End at the original position */
+        }
+      }
+}
+
+.card {
+  padding: 1.5rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+
+  &.colspan-4 {
+    grid-column: span 4;
+  }
+
+  &.colspan-8 {
+    grid-column: span 8;
+  }
+
+  &.colspan-12 {
+    grid-column: span 12;
+  }
+}

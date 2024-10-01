@@ -1,0 +1,14 @@
+.sidebar-container {
+  ul {
+    padding: 0;
+    margin: 3rem 0 0;
+    li {
+      list-style: none;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      &:hover {
+        background-color: #001363;
+      }
+    }
+  }
+}

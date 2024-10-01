@@ -1,0 +1,84 @@
+{
+    "monthlySpend": {
+        "currentMonth": 12800.45,
+        "previousMonth": 12250.60,
+        "changePercentage": 4.49
+    },
+    "spendHistoryLast12Months": [
+        { "month": "Oct 2023", "spend": 14200.55 },
+        { "month": "Sep 2023", "spend": 12850.70 },
+        { "month": "Aug 2023", "spend": 13800.40 },
+        { "month": "Jul 2023", "spend": 12650.80 },
+        { "month": "Jun 2023", "spend": 14450.25 },
+        { "month": "May 2023", "spend": 12100.95 },
+        { "month": "Apr 2023", "spend": 13200.20 },
+        { "month": "Mar 2023", "spend": 11800.60 },
+        { "month": "Feb 2023", "spend": 12550.90 },
+        { "month": "Jan 2023", "spend": 13650.40 },
+        { "month": "Dec 2022", "spend": 12450.75 },
+        { "month": "Nov 2022", "spend": 13700.50 }
+      ],
+    "spendByService": [
+        {
+            "service": "EC2",
+            "spend": 4000.00,
+            "percentage": 31.25
+        },
+        {
+            "service": "S3",
+            "spend": 2500.00,
+            "percentage": 19.53
+        },
+        {
+            "service": "Lambda",
+            "spend": 1000.00,
+            "percentage": 7.81
+        },
+        {
+            "service": "RDS",
+            "spend": 3500.00,
+            "percentage": 27.34
+        },
+        {
+            "service": "Other",
+            "spend": 1800.45,
+            "percentage": 14.06
+        }
+    ],
+    "spendByEnvironment": [
+        {
+            "environment": "Production",
+            "spend": 9000.00,
+            "percentage": 70.31
+        },
+        {
+            "environment": "Staging",
+            "spend": 2500.00,
+            "percentage": 19.53
+        },
+        {
+            "environment": "Development",
+            "spend": 1300.45,
+            "percentage": 10.16
+        }
+    ],
+    "crashFreeSessions": {
+        "percentage": 98.75,
+        "previousMonthPercentage": 97.30,
+        "changePercentage": 1.45
+    },
+    "crashFreeSessionsGraph": [
+        { "month": "Oct 2023", "percentage": 98.95 },
+        { "month": "Sep 2023", "percentage": 98.75 },
+        { "month": "Aug 2023", "percentage": 98.60 },
+        { "month": "Jul 2023", "percentage": 99.00 },
+        { "month": "Jun 2023", "percentage": 98.45 },
+        { "month": "May 2023", "percentage": 98.80 },
+        { "month": "Apr 2023", "percentage": 98.65 },
+        { "month": "Mar 2023", "percentage": 99.10 },
+        { "month": "Feb 2023", "percentage": 98.50 },
+        { "month": "Jan 2023", "percentage": 99.25 },
+        { "month": "Dec 2022", "percentage": 98.90 },
+        { "month": "Nov 2022", "percentage": 99.05 }
+      ]
+}

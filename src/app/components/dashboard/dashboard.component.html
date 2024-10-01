@@ -1,0 +1,38 @@
+<div class="dashboard-grid">
+    <div class="title-card">
+        <app-card [title]="'Cloud Spend'" [colspan]="'12'"></app-card>
+    </div>
+
+    <div class="grid-40-60">
+        <app-card [title]="'Monthly Spend'" [colspan]="'4'">
+            <p class="spend-summary">
+                <span class="spend-title">${{ data.monthlySpend.currentMonth }}</span>
+                <span class="spend-percentage">&#11014; {{ data.monthlySpend.changePercentage }}%</span>
+            </p>
+        </app-card>
+        <app-card [title]="'Last 12 months'" [colspan]="'8'">
+            <app-line [data]="spendHistoryLast12Months"></app-line>
+        </app-card>
+    </div>
+
+    <div class="grid-50-50">
+        <app-card [title]="'Spend by service'">
+            <app-donut [title]="'Spend by service'" [data]="spendByService"></app-donut>
+        </app-card>
+        <app-card [title]="'Spend by environment'">
+            <app-donut [title]="'Spend by environment'" [data]="spendByEnvironment"></app-donut>
+        </app-card>
+    </div>
+
+    <div class="grid-40-60">
+        <app-card [title]="'Crash-free sessions'" [colspan]="'4'">
+            <p class="spend-summary">
+                <span class="spend-title">{{ data.crashFreeSessions.percentage }}%</span>
+                <span class="spend-percentage">&#11015; {{ data.crashFreeSessions.changePercentage }}%</span>
+            </p>
+        </app-card>
+        <app-card [title]="'Crash-free sessions graph'" [colspan]="'8'">
+            <app-line [data]="crashFreeSessionsGraph"></app-line>
+        </app-card>
+    </div>
+</div>

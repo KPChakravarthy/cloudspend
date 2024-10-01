@@ -1,0 +1,48 @@
+@import '../../../../styles/colors.scss';
+
+.chart-container {
+  display: flex;
+  gap: 1rem;
+
+  #donut-chart-container {
+    width: 50%;
+    height: 200px;
+
+    @media (max-width: $media-pixels) {
+        width: 100%;
+        margin: auto;
+    }
+  }
+
+  .custom-legend {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+    th,
+    td {
+      padding: 0.3rem;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    .legend-color-indicator {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%; /* Circular color indicator */
+    }
+
+    @media (max-width: $media-pixels) {
+        margin-top: 0;
+    }
+  }
+
+  @media (max-width: $media-pixels) {
+    flex-direction: column;
+  }
+}
