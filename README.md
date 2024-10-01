@@ -1,5 +1,8 @@
 # CloudSpend
 
+<img width="1792" alt="image" src="https://github.com/user-attachments/assets/1d8721c4-7f64-400a-8edf-91bbebd31aa3">
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
 ## Development server
