@@ -8,7 +8,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { CardComponent } from './components/card/card.component';
 import { LineComponent } from './components/charts/line/line.component';
 import { DonutComponent } from './components/charts/donut/donut.component';
-
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [

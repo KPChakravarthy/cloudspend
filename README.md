@@ -4,7 +4,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Clone the repo running
+```bash
+    git clone https://github.com/KPChakravarthy/cloudspend.git
+```
+
+### Install npm dependencies
+```bash
+    npm install
+```
+
+### To serve a dev server of the app, run
+```bash
+    npm start
+```
+Navigate to `http://localhost:4200/`.
 
 ## Code scaffolding
 
