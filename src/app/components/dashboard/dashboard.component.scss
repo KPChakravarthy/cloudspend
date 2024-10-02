@@ -1,4 +1,4 @@
-@import '../../../styles/colors.scss';
+@import "../../../styles/colors.scss";
 
 .dashboard-grid {
   display: grid;
@@ -28,7 +28,8 @@
   }
 
   @media (max-width: $media-pixels) {
-    .grid-40-60, .grid-50-50 {
+    .grid-40-60,
+    .grid-50-50 {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
@@ -63,7 +64,8 @@
   }
 
   @media (max-width: $media-pixels) {
-    .grid-40-60, .grid-50-50 {
+    .grid-40-60,
+    .grid-50-50 {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;

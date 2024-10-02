@@ -6,13 +6,13 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './card.component.html',
-  styleUrl: './card.component.scss'
+  styleUrl: './card.component.scss',
 })
 export class CardComponent {
-    @Input() title: string = '';
-    @Input() colspan: string = '8';
-  
-    getColspanClass() {
-      return `colspan-${this.colspan}`;
-    }
+  @Input() title: string = '';
+  @Input() colspan: string = '8';
+
+  getColspanClass() {
+    return `colspan-${this.colspan}`;
   }
+}

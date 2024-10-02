@@ -1,11 +1,11 @@
 <div class="dashboard-layout">
-    <app-sidebar class="sidebar" [ngClass]="{'active': isSidebarOpen}">
-        <button class="menu-toggle-close" [ngClass]="{'show': isSidebarOpen}" (click)="toggleSidebar()">&#9932;</button>
-    </app-sidebar>
-    <div class="main-content">
-        <app-navbar>
-            <button class="menu-toggle" [ngClass]="{'hide': isSidebarOpen}" (click)="toggleSidebar()">&#9776;</button>
-        </app-navbar>
-        <app-dashboard></app-dashboard>
-    </div>
+  <app-sidebar class="sidebar" [ngClass]="{'active': isSidebarOpen}">
+    <button class="menu-toggle-close" [ngClass]="{'show': isSidebarOpen}" (click)="toggleSidebar()">&#9932;</button>
+  </app-sidebar>
+  <div class="main-content">
+    <app-navbar>
+      <button class="menu-toggle" [ngClass]="{'hide': isSidebarOpen}" (click)="toggleSidebar()">&#9776;</button>
+    </app-navbar>
+    <app-dashboard></app-dashboard>
+  </div>
 </div>

@@ -20,10 +20,7 @@ import { provideHttpClient } from '@angular/common/http';
     LineComponent,
     DonutComponent,
   ],
-  imports: [
-    BrowserAnimationsModule,
-    CommonModule,
-  ],
-  bootstrap: [AppComponent]
+  imports: [BrowserAnimationsModule, CommonModule],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

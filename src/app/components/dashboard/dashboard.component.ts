@@ -6,7 +6,7 @@ import jsonData from '../../../mockData.json';
 import { CloudSpendData } from './types';
 import { MockDataService } from '../../mock-data.service';
 import { CommonModule } from '@angular/common';
-import { LoaderComponent } from '../../loader/loader.component';
+import { LoaderComponent } from '../loader/loader.component';
 
 interface LineChartData {
   categories: string[] | undefined;
@@ -21,7 +21,13 @@ interface DoughnutChartData {
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CardComponent, LineComponent, DonutComponent, CommonModule, LoaderComponent],
+  imports: [
+    CardComponent,
+    LineComponent,
+    DonutComponent,
+    CommonModule,
+    LoaderComponent,
+  ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss',
 })
